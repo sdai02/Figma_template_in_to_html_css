@@ -1,0 +1,134 @@
+@media screen and (max-width: 480px) {
+    
+
+    .nav__right-nav{
+        display: none;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .header__banner {
+        flex-wrap: wrap-reverse;
+    }
+    .banner__text{
+        margin: 10px;
+    }
+    .banner__fontage{
+        width: 90%;
+        margin: 30px;
+    }
+
+    .main__posts li {
+        flex-wrap: wrap;
+    }
+    .li__img{
+        margin-left: 0px;
+        width: auto;
+    }
+    .li__text h2{
+       text-align: center;
+       width: 90%;
+       margin: 10px;
+    }
+    .li__text p{
+        text-align: center;
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main__h2{
+        margin-top: 20px;
+    }
+
+    .main__category {
+        display: block;
+    }
+
+    .main__category li{
+        width: auto;
+        height: auto;
+    }
+    .footer__logo img{
+        width: 22%;
+    }
+    .footer__block{
+        flex-wrap: wrap;
+    }
+    .block__search-btn input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .block__search-btn{
+        margin: 10px;
+    }
+  }
+  
+
+@media screen and (max-width: 720px) {
+    
+    .nav__right-nav{
+        display: none;
+    }
+
+    nav a {
+        margin: 0 auto;
+    }
+
+    .header__banner {
+        flex-wrap: wrap-reverse;
+    }
+    .banner__text{
+        margin: 10px;
+    }
+    .banner__fontage{
+        width: 90%;
+        margin: 30px;
+    }
+
+    .main__posts li {
+        flex-wrap: wrap;
+    }
+    .li__img{
+        margin: 0 auto;
+        width: auto;
+    }
+    .li__text h2{
+       text-align: center;
+       width: 90%;
+       margin: 10px;
+    }
+    .li__text p{
+        text-align: center;
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main__h2{
+        margin-top: 20px;
+    }
+
+    .main__category {
+        display: block;
+    }
+
+    .main__category li{
+        width: auto;
+        height: auto;
+    }
+    .footer__logo img{
+        width: 22%;
+    }
+    .footer__block{
+        flex-wrap: wrap;
+    }
+    .block__search-btn input{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .block__search-btn{
+        margin: 10px;
+    }
+    
+}
